@@ -12,6 +12,7 @@ namespace Hackerrank1.hackerrank
             for (int i = 1; i <= n; i++)
             {
                 Console.WriteLine(new string(' ', n - i) + new string('#', i));
+
             }
 
             Assert.Pass();
